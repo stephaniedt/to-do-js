@@ -11,7 +11,7 @@ let inputTextoTarefa = document.querySelector("#textoTarefa")
 addTarefa.onclick = function() {
     
     let divCard = document.createElement('div');
-    divCard.setAttribute('class','card text-white bg-info mb-3');
+    divCard.setAttribute('class','card text-white bg-info m-3');
 
     let divCardBody = document.createElement('div')
     divCardBody.setAttribute('class','card-body')

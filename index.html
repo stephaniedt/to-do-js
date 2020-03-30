@@ -11,9 +11,15 @@
 </head>
 
 <body>
-<main class="container">
+    <nav class="navbar navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand">TO-DO list da Steh <i class="fas fa-ghost"></i></a>
+        <span class="navbar-text"> Olar, humano ;) </span>
     
-    <div class="card text-white bg-info mb-3" style="">
+    </nav>
+
+<main class="container d-flex flex-wrap justify-content-center">
+
+    <div class="card text-white bg-info m-3">
         <div class="card-body">
             <p class="card-text"> Informações sobre a tarefa.</p>
             <button class="btn btn-light">FinalizarTarefa</button>
@@ -21,9 +27,9 @@
 
 </main>
 
-<footer> 
-    <input type="text" id="textoTarefa" class="form-control" placeholder="O que você precisa fazer hoje?">
-    <button class="addTarefa btn btn-primary"> AdicionarTarefa </button>
+<footer class="bg-dark d-flex p-3 justify-content-center fixed-bottom"> 
+    <input type="text" id="textoTarefa" class="form-control w-50" placeholder="O que você precisa fazer hoje?">
+    <button class="addTarefa btn btn-primary ml-2"> AdicionarTarefa </button>
 
 </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -36,6 +42,7 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
         <script src="js/todo.js"></script>
+        <script src="https://kit.fontawesome.com/d7fd1a01ef.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

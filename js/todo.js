@@ -31,7 +31,7 @@ function addTask() {
             // cardRemove.remove()
             // outra opção de selecionar o elemento. através da relação de pai/filho
             divCard.remove()
-            //essa é mais direta, uma vez que já criamo 
+            //essa é mais direta, uma vez que já criamo
         }
 
         divCard.appendChild(divCardBody)
